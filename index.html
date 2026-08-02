@@ -1,20 +1,75 @@
 <!DOCTYPE html>
-<html lang="rw">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Video Earn Rwanda</title>
-    <style>
-        body { background: #000; color: #00ff00; text-align: center; padding: 30px; font-family: Arial;}
-        h1 { color: #00ff00; font-size: 28px; }
-        .btn { background: #00ff00; color: #000; padding: 15px; margin: 10px; border: none; border-radius: 10px; font-size: 18px; width: 90%; font-weight: bold;}
-        .balance { background: #111; padding: 20px; margin: 20px; border-radius: 10px; font-size: 24px;}
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VideoEarn Rwanda</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #00c896, #00a87e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  h1 { color: #00a87e; margin-bottom: 20px; font-size: 32px; }
+  input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .phone { display: flex; }
+  .phone span {
+    background: #f5f5f5;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+  }
+  .phone input { border-radius: 0 10px 10px 0; margin: 0; }
+  button {
+    width: 100%;
+    padding: 16px;
+    background: #00c896;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  button:hover { background: #00a87e; }
+  a { color: #00a87e; text-decoration: none; }
+</style>
 </head>
 <body>
-    <h1>💰 VIDEO EARN RWANDA 💰</h1>
-    <p>Reba Video, Wige, Kora Uhembwe!</p>
-    <div class="balance">Balance Yanyu: 0 RWF</div>
-    <button class="btn">1. REBA VIDEO UPEMBWE</button>
-    <button class="btn">2. KURA AMAFARANGA</button>
+  <div class="container">
+    <h1>VideoEarn</h1>
+    <input type="text" placeholder="Referral ID" value="DNY250">
+    <div class="phone">
+      <span>🇷🇼 +250</span>
+      <input type="tel" placeholder="Enter phone number">
+    </div>
+    <input type="password" placeholder="Password 6-20 characters">
+    <input type="password" placeholder="Confirm Password">
+    <button onclick="alert('Account created! Welcome to VideoEarn')">Sign up now</button>
+    <p>Already have an account? <a href="#">Log in</a></p>
+  </div>
 </body>
-</html>
+                      </html>
